@@ -62,10 +62,116 @@ header {
 }
 
 
+/* main flexbox container module */
+
+.mainflexcontainer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+
+/* mission content */
+
+.missionstatic {
+    width: 1200px;
+    min-height: 700px;
+    background: transparent url("../images/img-mission-background.jpg") no-repeat;
+    margin: 70px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.missionflexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.missionitem {
+    background-color: black;
+    opacity: 1;
+}
+
+.missionitem h2,
+.missionitem h4 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+
+/* featured tea content */
+
+.featuredstatic {
+    margin: 70px 0 0 0;
+    width: 1200px;
+}
+
+.featuredflexbox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flexrow {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.menuitem {
+    justify-content: space-around;
+    margin: 15px 15px 10px 15px;
+}
+
+.menuitem img {
+    box-sizing: border-box;
+    height: 200px;
+    width: 300px;
+}
+
+
+/* location module */
+
+.locationstatic {
+    width: 1200px;
+    min-height: 500px;
+    background: transparent url("../images/img-locations-background.jpg") no-repeat;
+    padding: 70px 0 0 0;
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.locationstatic h2 {
+    background-color: transparent;
+    margin: 0;
+}
+
+.addressflexbox {
+    display: flex;
+}
+
+.addressitem {
+    margin: 15px 20px;
+    padding: 15px;
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+}
+
+
 /* footer */
 
 .footerstatic {
-    margin: 70px 0 0 0;
+    padding: 70px 0 0 0;
     width: 100%;
     max-height: 200px;
 }
