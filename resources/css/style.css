@@ -10,7 +10,6 @@ body {
     margin: 0;
     padding: 0;
     overflow: scroll;
-    transition-property: overflow;
 }
 
 a {
@@ -101,18 +100,13 @@ header {
     opacity: 1;
 }
 
-.missionitem h2,
-.missionitem h4 {
-    margin: 0;
-    padding: 10px 0;
-}
-
 
 /* featured tea content */
 
 #featuredstatic {
-    margin: 70px 0 0 0;
     width: 1200px;
+    padding: 70px 0 0 0;
+    background-color: black;
 }
 
 .featuredflexbox {
@@ -172,7 +166,7 @@ header {
 
 /* footer */
 
-.footerstatic {
+footer {
     padding: 70px 0 0 0;
     width: 100%;
     max-height: 200px;
