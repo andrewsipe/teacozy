@@ -9,6 +9,8 @@ body {
     line-height: 1.65em;
     margin: 0;
     padding: 0;
+    overflow: scroll;
+    transition-property: overflow;
 }
 
 a {
@@ -64,7 +66,7 @@ header {
 
 /* main flexbox container module */
 
-.mainflexcontainer {
+#mainflexcontainer {
     width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -76,7 +78,7 @@ header {
 
 /* mission content */
 
-.missionstatic {
+#missionstatic {
     width: 1200px;
     min-height: 700px;
     background: transparent url("../images/img-mission-background.jpg") no-repeat;
@@ -108,7 +110,7 @@ header {
 
 /* featured tea content */
 
-.featuredstatic {
+#featuredstatic {
     margin: 70px 0 0 0;
     width: 1200px;
 }
@@ -139,7 +141,7 @@ header {
 
 /* location module */
 
-.locationstatic {
+#locationstatic {
     width: 1200px;
     min-height: 500px;
     background: transparent url("../images/img-locations-background.jpg") no-repeat;
