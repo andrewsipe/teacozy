@@ -148,7 +148,6 @@ header {
 
 .locationstatic h2 {
     background-color: transparent;
-    margin: 0;
 }
 
 .addressflexbox {
@@ -169,6 +168,7 @@ header {
 footer {
     padding: 70px 0 0 0;
     width: 100%;
+    min-width: 1200px;
     max-height: 200px;
 }
 
